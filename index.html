@@ -1,16 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="assets/favicon.png">
   <title>Hotels.ng: Book the best Hotels in Nigeria</title>
   
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
-    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div id="hotel-header"></div>
+
+  <header class="hotel-header">
+  <div class="first-c">
+    <img src="assets/logo.png" alt="" class="logo">
+    <img src="assets/whatsapp-icon.png" alt="">
+  </div>
+
+ <div class="second-c">
+  <div class="innerc">
+    <img src="assets/navbar-contact-min.jpg" alt="contact" class="img-md">
+    <div class="dropdown">
+      <div class="dropdown-toggle1">
+        <span class="inner-text">You can call us to book your hotel</span>
+        <span class="num-text" id="numText">+234 814 880 8800 ▼</span>
+      </div>
+      <div class="mydropdown1" id="myDropdown1">
+       <a href="tel:+2348148808800"><i class="fa fa-phone"></i> +234 814 880 8800</a>
+       <a href="tel:+2348148808800"><i class="fa fa-phone"></i> +234 814 880 8800</a>
+       <a href="tel:+2348148808800"><i class="fa fa-phone"></i> +234 814 880 8800</a>
+       <a href="tel:+2348148808800"><i class="fa fa-phone"></i> +234 814 880 8800</a>
+       <a href="tel:+2348148808800"><i class="fa fa-phone"></i> +234 814 880 8800</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="third-c">
+  <div class="dropdown">
+  <button class="dropdown-toggle2" id="currencyToggle">
+    <img src="assets/nigeria-flag.svg" alt="naija" class="naija-icon"> ₦ ▼
+  </button>
+
+  <div class="mydropdown2" id="myDropdown2">
+    <p class="choo">Choose your preferred currency for the hotel rates:</p>
+    <a href="#" class="active">₦ Nigerian Naira</a>
+    <a href="#">$ US Dollar</a>
+    <a href="#">€ British Pound Sterling</a>
+    <a href="#">Ksh Kenyan Shilling</a>
+    <a href="#">₹ Indian Rupee</a>
+    <a href="#">R South African Rand</a>
+  </div>
+  </div>
+  </div>
+
+  <div class="four-c">
+  <div class="dropdown">
+  <button class="dropdown-toggle3"><img src="assets/profile-circle-icon.png" alt="Account" class="account-icon">Account ▼</button>
+<div class="mydropdown3">
+  <p>Sign in to access exclusive member deals</p>
+  <a href="#" class="sign-in">Sign in</a>
+  <p class="text-c">New here? <a href="#" class="sign-u">Sign up</a></p>
+</div>
+
+      </div>
+    </div>
+  </div>
+</header>
+
 
 <div class="section1">
 <h1>Find and book hotels in Nigeria.</h1>
@@ -72,7 +129,8 @@
   <div class="city-image">
     <img src="assets/hotel_florence.jpg" alt="city">
     <div class="overlay"></div>
-    <!-- Discount badge -->
+    
+
     <div class="rv-discount-position">
       <p class="rv-card-discount">
         Up to <span>20%</span> off
@@ -92,7 +150,8 @@
     <div class="city-image">
       <img src="assets/supplier.jpg" alt="city">
       <div class="overlay"></div>
-       <!-- Discount badge -->
+      
+ 
     <div class="rv-discount-position">
       <p class="rv-card-discount">
         Up to <span>27%</span> off
@@ -110,7 +169,7 @@
     <div class="city-image">
       <img src="assets/supplier_leon6lm6zs_.png" alt="city">
       <div class="overlay"></div>
-       <!-- Discount badge -->
+
     <div class="rv-discount-position">
       <p class="rv-card-discount">
         Up to <span>21%</span> off
@@ -128,7 +187,7 @@
     <div class="city-image">
       <img src="assets/supplier_8ucykphmf0.jpg" alt="city">
       <div class="overlay"></div>
-       <!-- Discount badge -->
+
     <div class="rv-discount-position">
       <p class="rv-card-discount">
         Up to <span>19%</span> off
@@ -146,7 +205,8 @@
     <div class="city-image">
       <img src="assets/supplier_9nrkna1hbh.jpg" alt="city">
       <div class="overlay"></div>
-       <!-- Discount badge -->
+
+     
     <div class="rv-discount-position">
       <p class="rv-card-discount">
         Up to <span>19%</span> off
@@ -164,7 +224,8 @@
     <div class="city-image">
       <img src="assets/hotel_wavecrest_beach.jpg" alt="city">
       <div class="overlay"></div>
-       <!-- Discount badge -->
+
+     
     <div class="rv-discount-position">
       <p class="rv-card-discount">
         Up to <span>0%</span> off
@@ -395,7 +456,7 @@
   </div>
 </section>
 
-<!-- Footer section -->
+
 <footer class="hng-footer">
   <div class="headig-section">
   <div class="heading-item">Company</div>

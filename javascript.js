@@ -1,8 +1,3 @@
-fetch("header.html")
-  .then(response => response.text())
-  .then(data => {
-    document.getElementById("hotel-header").innerHTML = data;
-
     const numText = document.getElementById("numText");
     const dropdown1 = document.getElementById("myDropdown1");
 
@@ -18,7 +13,6 @@ fetch("header.html")
         }
       });
     }
-
 
     const toggleBtn2 = document.getElementById("currencyToggle");
     const dropdown2 = document.getElementById("myDropdown2");
@@ -70,7 +64,7 @@ fetch("header.html")
         }
       });
     }
-  });
+  
 
 
 function scrollToForm() {
